@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{CAO2018353}
+Y.~Cao, W.~Tan, and Z.~Wu, ``Aircraft icing: An ongoing threat to aviation safety,'' {\em Aerospace Science and Technology}, vol.~75, pp.~353--385, 2018.
+
+\bibitem{KIND1998257}
+R.~Kind, M.~Potapczuk, A.~Feo, C.~Golia, and A.~Shah, ``Experimental and computational simulation of in-flight icing phenomena,'' {\em Progress in Aerospace Sciences}, vol.~34, no.~5, pp.~257--345, 1998.
+
+\bibitem{thompsonDeformation}
+D.~S. Thompson, X.~Tong, Q.~Arnoldus, E.~Collins, E.~A. Luke, and C.~S. Bidwell, ``Discrete surface evolution and mesh deformation for aircraft icing applications,''
+
+\bibitem{glimm2000}
+J.~Glimm, J.~W. Grove, X.~L. Li, and D.~C. Tan, ``Robust computational algorithms for dynamic interface tracking in three dimensions,'' {\em SIAM Journal on Scientific Computing}, vol.~21, no.~6, pp.~2240--2256, 2000.
+
+\bibitem{Ozcer_2019}
+I.~Ozcer, D.~Switchenko, G.~S. Baruzzi, and J.~Chen, ``Multi-shot icing simulations with automatic re-meshing,'' in {\em SAE Technical Paper Series}, vol.~1 of {\em ICE}, SAE International, 2019.
+
+\bibitem{OSHER198812}
+S.~Osher and J.~A. Sethian, ``Fronts propagating with curvature-dependent speed: Algorithms based on hamilton-jacobi formulations,'' {\em Journal of Computational Physics}, vol.~79, no.~1, pp.~12--49, 1988.
+
+\bibitem{OSHER2004}
+S.~Osher and R.~Fedkiw, {\em The Level Set Methods and Dynamic Implicit Surfaces}, vol.~57, pp.~xiv+273.
+\newblock 05 2004.
+
+\bibitem{GIBOU201882}
+F.~Gibou, R.~Fedkiw, and S.~Osher, ``A review of level-set methods and some recent applications,'' {\em Journal of Computational Physics}, vol.~353, pp.~82--109, 2018.
+
+\bibitem{PENA2016278}
+D.~Pena, Y.~Hoarau, and E.~Laurendeau, ``A single step ice accretion model using level-set method,'' {\em Journal of Fluids and Structures}, vol.~65, pp.~278--294, 2016.
+
+\bibitem{sbcLevelSet}
+S.~Bourgault-C\^{o}t\'{e}, J.~Docampo-S\'{a}nchez, and E.~Laurendeau, ``Multilayer airfoil ice accretion simulations using a level-set method with b-spline representation,'' {\em AIAA Journal}, vol.~57, no.~8, pp.~3299--3308, 2019.
+
+\bibitem{lavoieLevelSet}
+P.~Lavoie, E.~Radenac, G.~Blanchard, E.~Laurendeau, and P.~Villedieu, ``Immersed boundary methodology for multistep ice accretion using a level set,'' {\em Journal of Aircraft}, vol.~59, no.~4, pp.~912--926, 2022.
+
+\bibitem{alessandroLevelSet}
+A.~Donizetti, T.~Bellosta, A.~Rausa, B.~Re, and A.~Guardone, ``Three-dimensional front-tracking technique for multistep simulations of aircraft icing,'' {\em Journal of Aircraft}, vol.~62, no.~2, pp.~328--340, 2025.
+
+\bibitem{champsArticle}
+M.~Parenteau, S.~Bourgault-Cote, F.~Plante, E.~Kayraklioglu, and E.~Laurendeau, ``Development of parallel cfd applications with the chapel programming language,''
+
+\bibitem{XIA2010}
+H.~Xia and P.~G. Tucker, ``Finite volume distance field and its application to medial axis transforms,'' {\em International Journal for Numerical Methods in Engineering}, vol.~82, no.~1, pp.~114--134, 2010.
+
+\bibitem{hairer1996}
+E.~Hairer and G.~Wanner, {\em Solving Ordinary Differential Equations II. Stiff and Differential-Algebraic Problems}, vol.~14 of {\em Springer Verlag Series in Comput. Math.}
+\newblock Springer Berlin, Heidelberg, 1996.
+
+\bibitem{DAPOGNY2014358}
+C.~Dapogny, C.~Dobrzynski, and P.~Frey, ``Three-dimensional adaptive domain remeshing, implicit domain meshing, and applications to free and moving boundary problems,'' {\em Journal of Computational Physics}, vol.~262, pp.~358--378, 2014.
+
+\bibitem{laurendeau2022summary}
+E.~Laurendeau, S.~Bourgault-Cote, I.~A. Ozcer, R.~Hann, E.~Radenac, and A.~Pueyo, ``Summary from the 1st aiaa ice prediction workshop,'' in {\em AIAA Aviation 2022 Forum}, p.~3398, American Institute of Aeronautics and Astronautics (AIAA), June 2022.
+
+\bibitem{laurendeau2024summary}
+E.~Laurendeau, M.~Blanchet, M.~K. Zayni, R.~Hann, E.~Radenac, I.~Mussa, and A.~Pueyo, ``Summary from the 2nd aiaa ice prediction workshop,'' in {\em AIAA AVIATION FORUM AND ASCEND 2024}, American Institute of Aeronautics and Astronautics, July 2024.
+
+\bibitem{diebold2013aerodynamic}
+J.~M. Diebold, A.~P. Broeren, and M.~Bragg, ``Aerodynamic classification of swept-wing ice accretion,'' in {\em 5th AIAA Atmospheric and Space Environments Conference}, p.~2825, 2013.
+
+\end{thebibliography}

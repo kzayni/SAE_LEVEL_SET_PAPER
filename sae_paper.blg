@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sae_paper.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--string name "june" is undefined
+--line 320 of file references.bib
+Warning--empty journal in thompsonDeformation
+Warning--empty year in thompsonDeformation
+Warning--empty publisher in OSHER2004
+Warning--empty journal in champsArticle
+Warning--empty year in champsArticle
+You've used 19 entries,
+            1876 wiz_defined-function locations,
+            611 strings with 7391 characters,
+and the built_in function-call counts, 5724 in all, are:
+= -- 529
+> -- 257
+< -- 0
++ -- 92
+- -- 73
+* -- 435
+:= -- 804
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 299
+empty$ -- 529
+format.name$ -- 73
+if$ -- 1409
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 21
+newline$ -- 62
+num.names$ -- 19
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 207
+stack$ -- 0
+substring$ -- 355
+swap$ -- 131
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 45
+width$ -- 21
+write$ -- 189
+(There were 6 warnings)

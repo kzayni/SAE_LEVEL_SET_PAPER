@@ -1,0 +1,1943 @@
+#!MC 1410
+$!VarSet |LFBD| = '/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/MESH_CONVERGENCE'
+$!VarSet |LFDSFN1| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/01_BOEING/Final_LEWICE2D_data/Modified_Case-242_Boeing_LEWICE2D_finalIceShape.dat"'
+$!VarSet |LFDSVL1| = '"X2D_iced" "Y2D_iced" "sClean" "hIce"'
+$!VarSet |LFDSFN2| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/01_BOEING/Final_LEWICE3D_data/Modified_Case-242_Boeing_LEWICE3D_finalIceShape.dat"'
+$!VarSet |LFDSVL2| = '"X2D_iced" "Y2D_iced" "sClean" "hIce"'
+$!VarSet |LFDSFN3| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/03_NASA/GlennICE/Modified_Case242_Wright_GlennICE_ice_thickness_and_shape.dat"'
+$!VarSet |LFDSVL3| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s"'
+$!VarSet |LFDSFN4| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/03_NASA/LEWICE/Modified_case242_Wright_LEWICE_ice_shape.dat"'
+$!VarSet |LFDSFN5| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/03_NASA/LEWICE/Modified_case242_Wright_LEWICE_ice_thickness.dat"'
+$!VarSet |LFDSVL5| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area"'
+$!VarSet |LFDSFN6| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/04_ONERA/RESULT.1/Modified_case242_onera_finalIceShape.dat"'
+$!VarSet |LFDSVL6| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN7| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/04_ONERA/RESULT.2/Modified_case242_onera_finalIceShape.dat"'
+$!VarSet |LFDSVL7| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN8| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/05_GeorgiaTech/Modified_case242_GuptaSankarKreeger_finalIceShape.dat"'
+$!VarSet |LFDSVL8| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN9| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/06_PolitechnicoDiMilano/case-242/Modified_case242_politecnicoDiMilano_finalIceShape.dat"'
+$!VarSet |LFDSVL9| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN10| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/07_Textron/Modified_case242_textronAviation_finalIceShape.dat"'
+$!VarSet |LFDSVL10| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN11| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/08_CIRA/Carozza/Modified_242.2_CIRA_finalIceShape.dat"'
+$!VarSet |LFDSVL11| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN12| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/11_NTNU/NoDropDistribution/Case242.1/Modified_case242.1_NTNU_finalIceShape.dat"'
+$!VarSet |LFDSVL12| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN13| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/11_NTNU/WithDropDistribution/Case242.2/Modified_case242.2_NTNU_finalIceShape.dat"'
+$!VarSet |LFDSVL13| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN14| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/13_ANSYS/Modified_case242_Ansys-Bombardier_finalIceShape.dat"'
+$!VarSet |LFDSVL14| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN15| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/14_Embraer/Modified_case242_embraer_finalIceShape.dat"'
+$!VarSet |LFDSVL15| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN16| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/16_FAA/Modified_case242_FAATechCenter_finalIceShape.dat"'
+$!VarSet |LFDSVL16| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN17| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/16_FAA/Cases2D/Modified_case242_FAATechCenter_finalIceShape.dat"'
+$!VarSet |LFDSVL17| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN18| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/17_HONEYWELL/Modified_Case242_Honeywell_FinalIceShape.dat"'
+$!VarSet |LFDSVL18| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN19| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/ExperimentalData/Modified_Case-242-Tracings_finalIceShape.dat"'
+$!VarSet |LFDSVL19| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN20| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/CleanShapes/Modified_case242_clean_finalIceShape.dat"'
+$!VarSet |LFDSVL20| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN21| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/19_Siemens/Modified_Case242_finalIceShape.dat"'
+$!VarSet |LFDSVL21| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN22| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/10_AIT/Case242/case242.1/Modified_242.1_AustrianInstituteOfTechnology_cutData.dat" "/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/10_AIT/Case242/case242.2/Modified_242.2_AustrianInstituteOfTechnology_cutData.dat" "/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/10_AIT/Case242/case242.3/Modified_242.3_AustrianInstituteOfTechnology_cutData.dat" "/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/10_AIT/Case242/case242.4/Modified_242.4_AustrianInstituteOfTechnology_cutData.dat"'
+$!VarSet |LFDSVL22| = '"X2D_iced" "Y2D_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN23| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/03_NASA/LEWICE/Modified_case242_Wright_LEWICE_ice_shape.dat"'
+$!VarSet |LFDSVL23| = '"X2D_iced";"x_iced" "Y2D_iced";"y_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN24| = '"/apps/partage-elns/3_COMMON_WORK/IPW1/OfficialData/IPW_RESULTS/08_CIRA/Capizzano/Modified_case242.1_CIRA_cutData.dat"'
+$!VarSet |LFDSVL24| = '"X2D_iced";"x_iced" "Y2D_iced";"y_iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSRN25| = 'CGNS Loader'
+$!VarSet |LFDSVL25| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN25| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN26| = 'CGNS Loader'
+$!VarSet |LFDSVL26| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN26| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p001.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN27| = 'CGNS Loader'
+$!VarSet |LFDSVL27| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN27| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p002.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN28| = 'CGNS Loader'
+$!VarSet |LFDSVL28| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN28| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p003.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN29| = 'CGNS Loader'
+$!VarSet |LFDSVL29| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN29| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p003.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN30| = 'CGNS Loader'
+$!VarSet |LFDSVL30| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN30| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p004.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN31| = 'CGNS Loader'
+$!VarSet |LFDSVL31| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN31| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p0035.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN32| = 'CGNS Loader'
+$!VarSet |LFDSVL32| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN32| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p00375.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN33| = 'CGNS Loader'
+$!VarSet |LFDSVL33| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN33| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p003625.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN34| = 'CGNS Loader'
+$!VarSet |LFDSVL34| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN34| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p00375_smoothed.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN35| = 'CGNS Loader'
+$!VarSet |LFDSVL35| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN35| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p00375_REFINED.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN36| = 'CGNS Loader'
+$!VarSet |LFDSVL36| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN36| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p00375_refined.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN37| = 'CGNS Loader'
+$!VarSet |LFDSVL37| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN37| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p0035.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN38| = 'CGNS Loader'
+$!VarSet |LFDSVL38| = '"X2D_iced";"x_iced";"CoordinateX_Iced" "Y2D_iced";"y_iced";"CoordinateY_Iced" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN38| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/SOL_SURFACE_ICE_DATA_BF_LAGRANGIAN_CASE_242_IPW1_layer010_10_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_KS_0p00375_refined.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "0,1,2,3,4,5," "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN39| = 'CGNS Loader'
+$!VarSet |LFDSVL39| = '"X2D_iced";"x_iced";"CoordinateX_Iced";"CoordinateX" "Y2D_iced";"y_iced";"CoordinateY_Iced";"CoordinateY" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN39| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/MESH_CONVERGENCE/SOL_SURFACE_ICE_DATA_BF_ICE_LS_CASE_242_IPW1_layer020_20_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_COARSE.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "None" "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN40| = 'CGNS Loader'
+$!VarSet |LFDSVL40| = '"X2D_iced";"x_iced";"CoordinateX_Iced";"CoordinateX" "Y2D_iced";"y_iced";"CoordinateY_Iced";"CoordinateY" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN40| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/MESH_CONVERGENCE/SOL_SURFACE_ICE_DATA_BF_ICE_LS_CASE_242_IPW1_layer020_20_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_MEDIUM.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "None" "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!VarSet |LFDSRN41| = 'CGNS Loader'
+$!VarSet |LFDSVL41| = '"X2D_iced";"x_iced";"CoordinateX_Iced";"CoordinateX" "Y2D_iced";"y_iced";"CoordinateY_Iced";"CoordinateY" "sClean" "hIce" "x2D" "y2D" "s" "z_iced" "x" "y" "z" "ice_area" "s_Clean"'
+$!VarSet |LFDSFN41| = '"STANDARDSYNTAX" "1.0" "FILELIST_CGNSFILES" "1" "/apps/partage-elns/1_KarimZ/00_SIMULATIONS/09_ICING/6_IMAGES/07_CASE_242_IPW1/MESH_CONVERGENCE/SOL_SURFACE_ICE_DATA_BF_ICE_LS_CASE_242_IPW1_layer020_20_LAYERS_DISTRIBUTION_DROP_LAGRANGIAN_NO_SLD_FINE.cgns" "AverageToNodes" "No" "AveragingMethod" "Arithmetic" "SectionLoad" "SeparateZones" "LoadBCs" "Yes" "AssignStrandIDs" "No" "UniformGridStructure" "Yes" "LOADCONVERGENCEHISTORY" "No" "ZoneList" "0," "VarList" "None" "LoaderVersion" "V3" "CgnsLibraryVersion" "4.1.2"'
+$!SetStyleBase Factory
+$!BasicColor 
+  Custom1
+    {
+    R = 160
+    G = 160
+    B = 160
+    }
+$!GlobalPaper 
+  PaperSizeInfo
+    {
+    Letter
+      {
+      Width = 8.5
+      Height = 11
+      LeftHardClipOffset = 0.125
+      RightHardClipOffset = 0.125
+      TopHardClipOffset = 0.125
+      BottomHardClipOffset = 0.125
+      }
+    }
+$!Page 
+  Name = 'MESH_CONVERGENCE'
+  PaperAttributes
+    {
+    BackgroundColor = White
+    IsTransparent = Yes
+    OrientPortrait = No
+    ShowGrid = Yes
+    ShowRuler = No
+    ShowPaper = No
+    PaperSize = Letter
+    RulerSpacing = OneInch
+    PaperGridSpacing = HalfInch
+    RegionInWorkArea
+      {
+      X1 = 1
+      Y1 = 0.25
+      X2 = 10
+      Y2 = 8.25
+      }
+    }
+### Frame Number 1 ###
+$!ReadDataSet  '|LFDSFN1|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL1|'
+$!RemoveVar |LFDSVL1|
+$!RemoveVar |LFDSFN1|
+$!ReadDataSet  '|LFDSFN2|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL2|'
+$!RemoveVar |LFDSVL2|
+$!RemoveVar |LFDSFN2|
+$!ReadDataSet  '|LFDSFN3|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL3|'
+$!RemoveVar |LFDSVL3|
+$!RemoveVar |LFDSFN3|
+$!ReadDataSet  '|LFDSFN4|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarPositionList =  [1-8]
+$!RemoveVar |LFDSFN4|
+$!ReadDataSet  '|LFDSFN5|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL5|'
+$!RemoveVar |LFDSVL5|
+$!RemoveVar |LFDSFN5|
+$!ReadDataSet  '|LFDSFN6|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL6|'
+$!RemoveVar |LFDSVL6|
+$!RemoveVar |LFDSFN6|
+$!ReadDataSet  '|LFDSFN7|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL7|'
+$!RemoveVar |LFDSVL7|
+$!RemoveVar |LFDSFN7|
+$!ReadDataSet  '|LFDSFN8|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL8|'
+$!RemoveVar |LFDSVL8|
+$!RemoveVar |LFDSFN8|
+$!ReadDataSet  '|LFDSFN9|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL9|'
+$!RemoveVar |LFDSVL9|
+$!RemoveVar |LFDSFN9|
+$!ReadDataSet  '|LFDSFN10|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL10|'
+$!RemoveVar |LFDSVL10|
+$!RemoveVar |LFDSFN10|
+$!ReadDataSet  '|LFDSFN11|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL11|'
+$!RemoveVar |LFDSVL11|
+$!RemoveVar |LFDSFN11|
+$!ReadDataSet  '|LFDSFN12|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL12|'
+$!RemoveVar |LFDSVL12|
+$!RemoveVar |LFDSFN12|
+$!ReadDataSet  '|LFDSFN13|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL13|'
+$!RemoveVar |LFDSVL13|
+$!RemoveVar |LFDSFN13|
+$!ReadDataSet  '|LFDSFN14|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL14|'
+$!RemoveVar |LFDSVL14|
+$!RemoveVar |LFDSFN14|
+$!ReadDataSet  '|LFDSFN15|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL15|'
+$!RemoveVar |LFDSVL15|
+$!RemoveVar |LFDSFN15|
+$!ReadDataSet  '|LFDSFN16|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL16|'
+$!RemoveVar |LFDSVL16|
+$!RemoveVar |LFDSFN16|
+$!ReadDataSet  '|LFDSFN17|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL17|'
+$!RemoveVar |LFDSVL17|
+$!RemoveVar |LFDSFN17|
+$!ReadDataSet  '|LFDSFN18|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL18|'
+$!RemoveVar |LFDSVL18|
+$!RemoveVar |LFDSFN18|
+$!ReadDataSet  '|LFDSFN19|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL19|'
+$!RemoveVar |LFDSVL19|
+$!RemoveVar |LFDSFN19|
+$!ReadDataSet  '|LFDSFN20|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL20|'
+$!RemoveVar |LFDSVL20|
+$!RemoveVar |LFDSFN20|
+$!ReadDataSet  '|LFDSFN21|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL21|'
+$!RemoveVar |LFDSVL21|
+$!RemoveVar |LFDSFN21|
+$!RenameDataSetVar 
+  Var = 1
+  Name = 'X2D_iced'
+$!AlterData  [3]
+  Equation = '{X2D_iced}={X2D_iced}-0.1143  '
+$!AlterData  [3]
+  Equation = '{X2D_iced}={X2D_iced}+0.1143  '
+$!AlterData  [3]
+  Equation = '{X2D_iced}={X2D_iced}+0.1143  '
+$!ReadDataSet  '|LFDSFN22|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  ResetStyle = No
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL22|'
+$!RemoveVar |LFDSVL22|
+$!RemoveVar |LFDSFN22|
+$!AlterData  [6]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.002  '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.00175  '
+$!AlterData  [16]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.002  '
+$!AlterData  [15]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.002  '
+$!AlterData  [16]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.002  '
+$!AlterData  [15]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.002  '
+$!AlterData  [16]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.00185 '
+$!AlterData  [15]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.00185 '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [7-8]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [17]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [20]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [20]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [19]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [19]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [10]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [10]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.0001   '
+$!AlterData  [3]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001   '
+$!AlterData  [3]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001   '
+$!AlterData  [2]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001   '
+$!ReadDataSet  '|LFDSFN23|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  ResetStyle = No
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL23|'
+$!RemoveVar |LFDSVL23|
+$!RemoveVar |LFDSFN23|
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}+0.001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!AlterData  [21]
+  Equation = '{Y2D_iced}={Y2D_iced}-0.0001'
+$!ReadDataSet  '|LFDSFN24|'
+  InitialPlotType = XYLine
+  IncludeText = No
+  IncludeGeom = No
+  ReadDataOption = Append
+  ResetStyle = No
+  AssignStrandIDs = Yes
+  VarLoadMode = ByName
+  VarNameList = '|LFDSVL24|'
+$!RemoveVar |LFDSVL24|
+$!RemoveVar |LFDSFN24|
+$!ReadDataSet  '|LFDSFN25|'
+  DataSetReader = '|LFDSRN25|'
+  VarNameList = '|LFDSVL25|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN25|
+$!RemoveVar |LFDSVL25|
+$!RemoveVar |LFDSFN25|
+$!DeleteZones  [38]
+$!ReadDataSet  '|LFDSFN26|'
+  DataSetReader = '|LFDSRN26|'
+  VarNameList = '|LFDSVL26|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN26|
+$!RemoveVar |LFDSVL26|
+$!RemoveVar |LFDSFN26|
+$!ReadDataSet  '|LFDSFN27|'
+  DataSetReader = '|LFDSRN27|'
+  VarNameList = '|LFDSVL27|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN27|
+$!RemoveVar |LFDSVL27|
+$!RemoveVar |LFDSFN27|
+$!RenameDataSetZone 
+  Zone = 38
+  Name = 'LAG KS 0.001'
+$!RenameDataSetZone 
+  Zone = 38
+  Name = 'LAG KS 0.001'
+$!RenameDataSetZone 
+  Zone = 39
+  Name = 'LAG KS 0.002'
+$!ReadDataSet  '|LFDSFN28|'
+  DataSetReader = '|LFDSRN28|'
+  VarNameList = '|LFDSVL28|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN28|
+$!RemoveVar |LFDSVL28|
+$!RemoveVar |LFDSFN28|
+$!RenameDataSetZone 
+  Zone = 39
+  Name = 'LAG KS 0.002'
+$!RenameDataSetZone 
+  Zone = 40
+  Name = 'LAG KS 0.003'
+$!DeleteZones  [40]
+$!ReadDataSet  '|LFDSFN29|'
+  DataSetReader = '|LFDSRN29|'
+  VarNameList = '|LFDSVL29|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN29|
+$!RemoveVar |LFDSVL29|
+$!RemoveVar |LFDSFN29|
+$!RenameDataSetZone 
+  Zone = 40
+  Name = 'step0_WALL'
+$!RenameDataSetZone 
+  Zone = 39
+  Name = 'LAG KS 0.002'
+$!RenameDataSetZone 
+  Zone = 40
+  Name = 'LAG KS 0.003'
+$!ReadDataSet  '|LFDSFN30|'
+  DataSetReader = '|LFDSRN30|'
+  VarNameList = '|LFDSVL30|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN30|
+$!RemoveVar |LFDSVL30|
+$!RemoveVar |LFDSFN30|
+$!RenameDataSetZone 
+  Zone = 41
+  Name = 'LAG KS 0.004'
+$!ReadDataSet  '|LFDSFN31|'
+  DataSetReader = '|LFDSRN31|'
+  VarNameList = '|LFDSVL31|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN31|
+$!RemoveVar |LFDSVL31|
+$!RemoveVar |LFDSFN31|
+$!ReadDataSet  '|LFDSFN32|'
+  DataSetReader = '|LFDSRN32|'
+  VarNameList = '|LFDSVL32|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN32|
+$!RemoveVar |LFDSVL32|
+$!RemoveVar |LFDSFN32|
+$!RenameDataSetZone 
+  Zone = 41
+  Name = 'LAG KS 0.004'
+$!RenameDataSetZone 
+  Zone = 42
+  Name = 'LAG KS 0.0035'
+$!RenameDataSetZone 
+  Zone = 43
+  Name = 'LAG KS 0.00375'
+$!ReadDataSet  '|LFDSFN33|'
+  DataSetReader = '|LFDSRN33|'
+  VarNameList = '|LFDSVL33|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN33|
+$!RemoveVar |LFDSVL33|
+$!RemoveVar |LFDSFN33|
+$!RenameDataSetZone 
+  Zone = 44
+  Name = 'LAG KS 0.003625'
+$!ReadDataSet  '|LFDSFN34|'
+  DataSetReader = '|LFDSRN34|'
+  VarNameList = '|LFDSVL34|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN34|
+$!RemoveVar |LFDSVL34|
+$!RemoveVar |LFDSFN34|
+$!ReadDataSet  '|LFDSFN35|'
+  DataSetReader = '|LFDSRN35|'
+  VarNameList = '|LFDSVL35|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN35|
+$!RemoveVar |LFDSVL35|
+$!RemoveVar |LFDSFN35|
+$!ReadDataSet  '|LFDSFN36|'
+  DataSetReader = '|LFDSRN36|'
+  VarNameList = '|LFDSVL36|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN36|
+$!RemoveVar |LFDSVL36|
+$!RemoveVar |LFDSFN36|
+$!ReadDataSet  '|LFDSFN37|'
+  DataSetReader = '|LFDSRN37|'
+  VarNameList = '|LFDSVL37|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN37|
+$!RemoveVar |LFDSVL37|
+$!RemoveVar |LFDSFN37|
+$!ReadDataSet  '|LFDSFN38|'
+  DataSetReader = '|LFDSRN38|'
+  VarNameList = '|LFDSVL38|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN38|
+$!RemoveVar |LFDSVL38|
+$!RemoveVar |LFDSFN38|
+$!DeleteZones  [45-49]
+$!DeleteZones  [38-44]
+$!ReadDataSet  '|LFDSFN39|'
+  DataSetReader = '|LFDSRN39|'
+  VarNameList = '|LFDSVL39|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN39|
+$!RemoveVar |LFDSVL39|
+$!RemoveVar |LFDSFN39|
+$!ReadDataSet  '|LFDSFN40|'
+  DataSetReader = '|LFDSRN40|'
+  VarNameList = '|LFDSVL40|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN40|
+$!RemoveVar |LFDSVL40|
+$!RemoveVar |LFDSFN40|
+$!ReadDataSet  '|LFDSFN41|'
+  DataSetReader = '|LFDSRN41|'
+  VarNameList = '|LFDSVL41|'
+  ReadDataOption = Append
+  InitialPlotType = XYLine
+  AssignStrandIDs = Yes
+  ResetStyle = No
+$!RemoveVar |LFDSRN41|
+$!RemoveVar |LFDSVL41|
+$!RemoveVar |LFDSFN41|
+$!RenameDataSetZone 
+  Zone = 38
+  Name = 'COARSE'
+$!RenameDataSetZone 
+  Zone = 39
+  Name = 'MEDIUM'
+$!RenameDataSetZone 
+  Zone = 40
+  Name = 'FINE'
+$!FrameLayout 
+  ShowBorder = No
+  ShowHeader = No
+  HeaderColor = Red
+  XYPos
+    {
+    X = 1
+    Y = 0.25
+    }
+  Width = 9
+  Height = 8
+$!ThreeDAxis 
+  AspectRatioLimit = 25
+  BoxAspectRatioLimit = 25
+$!PlotType  = XYLine
+$!FrameName  = 'Case242finalIceShape'
+$!GlobalTime 
+  SolutionTime = 30
+$!DeleteLineMaps 
+$!ActiveLineMaps  =  [28-32]
+$!GlobalLinePlot 
+  DataLabels
+    {
+    DistanceSkip = 5
+    }
+  Legend
+    {
+    Show = Yes
+    TextShape
+      {
+      Height = 2
+      }
+    Box
+      {
+      BoxType = Filled
+      Margin = 5
+      LineThickness = 0.4
+      }
+    XYPos
+      {
+      X = 97.5
+      Y = 50
+      }
+    AnchorAlignment = MiddleRight
+    }
+$!LineMap  [1]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 1
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Red
+    FillMode = UseSpecificColor
+    FillColor = Red
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [2]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 2
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Red
+    FillMode = UseSpecificColor
+    FillColor = Red
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Green
+    FillColor = Green
+    }
+  ErrorBars
+    {
+    Color = Green
+    }
+$!LineMap  [3]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 3
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Green
+    FillMode = UseSpecificColor
+    FillColor = Green
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Blue
+    FillColor = Blue
+    }
+  ErrorBars
+    {
+    Color = Blue
+    }
+$!LineMap  [4]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 33
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Green
+    FillMode = UseSpecificColor
+    FillColor = Green
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!LineMap  [5]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 5
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Green
+    FillMode = UseSpecificColor
+    FillColor = Green
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom3
+    FillColor = Custom3
+    }
+  ErrorBars
+    {
+    Color = Custom3
+    }
+$!LineMap  [6]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 6
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Custom6
+    FillMode = UseSpecificColor
+    FillColor = Custom6
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Purple
+    FillColor = Purple
+    }
+  ErrorBars
+    {
+    Color = Purple
+    }
+$!LineMap  [7]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 7
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Custom6
+    FillMode = UseSpecificColor
+    FillColor = Custom6
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [8]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 8
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Custom6
+    FillMode = UseSpecificColor
+    FillColor = Custom6
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Green
+    FillColor = Green
+    }
+  ErrorBars
+    {
+    Color = Green
+    }
+$!LineMap  [9]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 9
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    Color = Custom33
+    FillMode = UseSpecificColor
+    FillColor = Custom33
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Blue
+    FillColor = Blue
+    }
+  ErrorBars
+    {
+    Color = Blue
+    }
+$!LineMap  [10]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 10
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Grad
+      }
+    Color = Custom53
+    FillMode = UseSpecificColor
+    FillColor = Custom53
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!LineMap  [11]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 11
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom44
+    FillMode = UseSpecificColor
+    FillColor = Custom44
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom3
+    FillColor = Custom3
+    }
+  ErrorBars
+    {
+    Color = Custom3
+    }
+$!LineMap  [12]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 12
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom39
+    FillMode = UseSpecificColor
+    FillColor = Custom39
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Purple
+    FillColor = Purple
+    }
+  ErrorBars
+    {
+    Color = Purple
+    }
+$!LineMap  [13]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 13
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom39
+    FillMode = UseSpecificColor
+    FillColor = Custom39
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [14]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 36
+    XAxisVar = 9
+    YAxisVar = 11
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom39
+    FillMode = UseSpecificColor
+    FillColor = Custom39
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Purple
+    FillColor = Purple
+    }
+  ErrorBars
+    {
+    Color = Purple
+    }
+$!LineMap  [15]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 14
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom39
+    FillMode = UseSpecificColor
+    FillColor = Custom39
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Green
+    FillColor = Green
+    }
+  ErrorBars
+    {
+    Color = Green
+    }
+$!LineMap  [16]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 26
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = RTri
+      }
+    Color = Custom52
+    FillMode = UseSpecificColor
+    FillColor = Custom52
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [17]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 28
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = RTri
+      }
+    Color = Custom52
+    FillMode = UseSpecificColor
+    FillColor = Custom52
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [18]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 30
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = RTri
+      }
+    Color = Custom52
+    FillMode = UseSpecificColor
+    FillColor = Custom52
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [19]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 32
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = RTri
+      }
+    Color = Custom52
+    FillMode = UseSpecificColor
+    FillColor = Custom52
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [20]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 15
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom56
+    FillMode = UseSpecificColor
+    FillColor = Custom56
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Blue
+    FillColor = Blue
+    }
+  ErrorBars
+    {
+    Color = Blue
+    }
+$!LineMap  [21]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 16
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom56
+    FillMode = UseSpecificColor
+    FillColor = Custom56
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!LineMap  [22]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 17
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Circle
+      }
+    Color = Custom9
+    FillMode = UseSpecificColor
+    FillColor = Custom9
+    Size = 0.8
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom3
+    FillColor = Custom3
+    }
+  ErrorBars
+    {
+    Color = Custom3
+    }
+$!LineMap  [23]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 18
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Circle
+      }
+    Color = Custom3
+    FillMode = UseSpecificColor
+    FillColor = Custom3
+    Size = 0.8
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Purple
+    FillColor = Purple
+    }
+  ErrorBars
+    {
+    Color = Purple
+    }
+$!LineMap  [24]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 19
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom55
+    FillMode = UseSpecificColor
+    FillColor = Custom55
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!LineMap  [25]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 20
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom55
+    FillMode = UseSpecificColor
+    FillColor = Custom55
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Green
+    FillColor = Green
+    }
+  ErrorBars
+    {
+    Color = Green
+    }
+$!LineMap  [26]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 21
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Grad
+      }
+    Color = Custom32
+    FillMode = UseSpecificColor
+    FillColor = Custom32
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Blue
+    FillColor = Blue
+    }
+  ErrorBars
+    {
+    Color = Blue
+    }
+$!LineMap  [27]
+  Name = 'IPW1 RESULTS'
+  Assign
+    {
+    Zone = 24
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Custom1
+    PatternLength = 1.5
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Custom1
+    FillMode = UseSpecificColor
+    FillColor = Custom1
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Purple
+    FillColor = Purple
+    }
+  ErrorBars
+    {
+    Color = Purple
+    }
+$!LineMap  [28]
+  Name = 'Exp.'
+  Assign
+    {
+    Zone = 22
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Black
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    SymbolShape
+      {
+      GeomShape = Diamond
+      }
+    Color = Custom8
+    FillMode = UseLineColor
+    FillColor = Custom1
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!LineMap  [29]
+  Name = 'Clean'
+  Assign
+    {
+    Zone = 23
+    XAxisVar = 5
+    YAxisVar = 6
+    }
+  Lines
+    {
+    Color = Black
+    LineThickness = 0.8
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Del
+      }
+    Color = Black
+    FillMode = UseLineColor
+    FillColor = Custom3
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom3
+    FillColor = Custom3
+    }
+  ErrorBars
+    {
+    Color = Custom3
+    }
+$!LineMap  [30]
+  Name = 'H = 0.002 [m]'
+  Assign
+    {
+    Zone = 38
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Red
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Diamond
+      }
+    Color = Custom8
+    FillMode = UseLineColor
+    FillColor = Custom1
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!LineMap  [31]
+  Name = 'H = 0.001 [m]'
+  Assign
+    {
+    Zone = 39
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Green
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Diamond
+      }
+    Color = Custom8
+    FillMode = UseLineColor
+    FillColor = Custom1
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!LineMap  [32]
+  Name = 'H = 0.0005 [m]'
+  Assign
+    {
+    Zone = 40
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Blue
+    LineThickness = 0.4
+    }
+  Symbols
+    {
+    Show = No
+    SymbolShape
+      {
+      GeomShape = Diamond
+      }
+    Color = Custom8
+    FillMode = UseLineColor
+    FillColor = Custom1
+    Size = 1.2
+    SkipMode = ByFrameUnits
+    Skipping = 4
+    }
+  BarCharts
+    {
+    Color = Custom1
+    FillColor = Custom1
+    }
+  ErrorBars
+    {
+    Color = Custom1
+    }
+$!XYLineAxis 
+  AxisMode = XYDependent
+  DepXToYRatio = 1
+  GridArea
+    {
+    DrawBorder = Yes
+    }
+  ViewportPosition
+    {
+    X1 = 10
+    Y1 = 10.108
+    X2 = 97.5
+    Y2 = 97.608
+    }
+  ViewportTopSnapTarget = 97.6083423619
+$!XYLineAxis 
+  XDetail 1
+    {
+    RangeMin = -0.019157997573618266995
+    RangeMax = 0.034937672741051466196
+    GRSpacing = 0.02
+    Title
+      {
+      TitleMode = UseText
+      Text = 'X (Normal to leading edge at AoA=0 deg) [m]'
+      }
+    }
+$!XYLineAxis 
+  YDetail 1
+    {
+    RangeMin = -0.018034085572434493949
+    RangeMax = 0.030050954707271933242
+    GRSpacing = 0.005
+    Title
+      {
+      TitleMode = UseText
+      Text = 'Y [m]'
+      PercentAlongLine = 35
+      }
+    }
+$!LinePlotLayers 
+  ShowSymbols = Yes
+$!FrameControl ActivateByNumber
+  Frame = 1
+$!RemoveVar |LFBD|
+$!SetStyleBase Config
