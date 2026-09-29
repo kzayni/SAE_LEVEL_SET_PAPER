@@ -47,8 +47,14 @@ H.~Xia and P.~G. Tucker, ``Finite volume distance field and its application to m
 E.~Hairer and G.~Wanner, {\em Solving Ordinary Differential Equations II. Stiff and Differential-Algebraic Problems}, vol.~14 of {\em Springer Verlag Series in Comput. Math.}
 \newblock Springer Berlin, Heidelberg, 1996.
 
+\bibitem{saad1986gmres}
+Y.~Saad and M.~H. Schultz, ``{GMRES}: A generalized minimal residual algorithm for solving nonsymmetric linear systems,'' {\em SIAM Journal on Scientific and Statistical Computing}, vol.~7, no.~3, pp.~856--869, 1986.
+
 \bibitem{DAPOGNY2014358}
 C.~Dapogny, C.~Dobrzynski, and P.~Frey, ``Three-dimensional adaptive domain remeshing, implicit domain meshing, and applications to free and moving boundary problems,'' {\em Journal of Computational Physics}, vol.~262, pp.~358--378, 2014.
+
+\bibitem{pierreThermo}
+P.~Lavoie, D.~Pena, Y.~Hoarau, and E.~Laurendeau, ``Comparison of thermodynamic models for ice accretion on airfoils,'' {\em International Journal of Numerical Methods for Heat \& Fluid Flow}, vol.~28, pp.~1004--1030, 05 2018.
 
 \bibitem{laurendeau2022summary}
 E.~Laurendeau, S.~Bourgault-Cote, I.~A. Ozcer, R.~Hann, E.~Radenac, and A.~Pueyo, ``Summary from the 1st aiaa ice prediction workshop,'' in {\em AIAA Aviation 2022 Forum}, p.~3398, American Institute of Aeronautics and Astronautics (AIAA), June 2022.

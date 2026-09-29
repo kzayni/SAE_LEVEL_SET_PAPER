@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 SEP 2026 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  29 SEP 2026 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,10 +581,6 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count337
 \calc@Cskip=\skip66
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 81.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
@@ -673,11 +669,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<FIGURES/icingFramework.png, id=30, 1183.42125pt x 268.00125pt>
-File: FIGURES/icingFramework.png Graphic file (type png)
-<use FIGURES/icingFramework.png>
-Package pdftex.def Info: FIGURES/icingFramework.png  used on input line 123.
-(pdftex.def)             Requested size: 227.64896pt x 51.55052pt.
+Package epstopdf Info: Source file: <FIGURES/icingFramework.eps>
+(epstopdf)                    date: 2026-09-28 13:02:18
+(epstopdf)                    size: 1154206 bytes
+(epstopdf)             Output file: <FIGURES/icingFramework-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-09-28 13:40:00
+(epstopdf)                    size: 12653 bytes
+(epstopdf)             Command: <repstopdf --outfile=FIGURES/icingFramework-eps-converted-to.pdf FIGURES/icingFramework.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+<FIGURES/icingFramework-eps-converted-to.pdf, id=30, 499.8675pt x 651.43375pt>
+File: FIGURES/icingFramework-eps-converted-to.pdf Graphic file (type pdf)
+<use FIGURES/icingFramework-eps-converted-to.pdf>
+Package pdftex.def Info: FIGURES/icingFramework-eps-converted-to.pdf  used on input line 123.
+(pdftex.def)             Requested size: 151.76854pt x 197.78741pt.
 Package epstopdf Info: Source file: <FIGURES/ICE_AIR_INTERFACE.eps>
 (epstopdf)                    date: 2026-09-17 16:17:10
 (epstopdf)                    size: 909758 bytes
@@ -687,7 +692,7 @@ Package epstopdf Info: Source file: <FIGURES/ICE_AIR_INTERFACE.eps>
 (epstopdf)             Command: <repstopdf --outfile=FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf FIGURES/ICE_AIR_INTERFACE.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf, id=32, 610.28pt x 356.33125pt>
+<FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf, id=31, 610.28pt x 356.33125pt>
 File: FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf Graphic file (type pdf)
 <use FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf>
 Package pdftex.def Info: FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf  used on input line 139.
@@ -697,28 +702,28 @@ Package pdftex.def Info: FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf  used on
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./FIGURES/icingFramework.png> <./FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf>]
-<FIGURES/EIKONAL.png, id=51, 1446.40375pt x 1285.80376pt>
+ <./FIGURES/icingFramework-eps-converted-to.pdf>]
+<FIGURES/EIKONAL.png, id=52, 1446.40375pt x 1285.80376pt>
 File: FIGURES/EIKONAL.png Graphic file (type png)
 <use FIGURES/EIKONAL.png>
-Package pdftex.def Info: FIGURES/EIKONAL.png  used on input line 174.
-(pdftex.def)             Requested size: 121.41252pt x 107.9283pt.
-<FIGURES/PROPAGATION.png, id=52, 1446.40375pt x 1285.80376pt>
+Package pdftex.def Info: FIGURES/EIKONAL.png  used on input line 173.
+(pdftex.def)             Requested size: 189.70876pt x 168.63184pt.
+<FIGURES/PROPAGATION.png, id=53, 1446.40375pt x 1285.80376pt>
 File: FIGURES/PROPAGATION.png Graphic file (type png)
 <use FIGURES/PROPAGATION.png>
-Package pdftex.def Info: FIGURES/PROPAGATION.png  used on input line 181.
-(pdftex.def)             Requested size: 121.41252pt x 107.9283pt.
-<FIGURES/MESH_ADAPTATION.png, id=53, 995.72pt x 885.3075pt>
+Package pdftex.def Info: FIGURES/PROPAGATION.png  used on input line 179.
+(pdftex.def)             Requested size: 189.70876pt x 168.63184pt.
+
+
+<FIGURES/MESH_ADAPTATION.png, id=54, 995.72pt x 885.3075pt>
 File: FIGURES/MESH_ADAPTATION.png Graphic file (type png)
 <use FIGURES/MESH_ADAPTATION.png>
-Package pdftex.def Info: FIGURES/MESH_ADAPTATION.png  used on input line 221.
+Package pdftex.def Info: FIGURES/MESH_ADAPTATION.png  used on input line 219.
 (pdftex.def)             Requested size: 182.12071pt x 161.91512pt.
-
-
-<FIGURES/THREE_HORNS.png, id=54, 1963.335pt x 1745.52126pt>
+<FIGURES/THREE_HORNS.png, id=55, 1963.335pt x 1745.52126pt>
 File: FIGURES/THREE_HORNS.png Graphic file (type png)
 <use FIGURES/THREE_HORNS.png>
-Package pdftex.def Info: FIGURES/THREE_HORNS.png  used on input line 239.
+Package pdftex.def Info: FIGURES/THREE_HORNS.png  used on input line 234.
 (pdftex.def)             Requested size: 172.00075pt x 152.90852pt.
 Package epstopdf Info: Source file: <FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE.eps>
 (epstopdf)                    date: 2026-09-17 16:17:10
@@ -727,25 +732,21 @@ Package epstopdf Info: Source file: <FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE
 (epstopdf)                    date: 2026-09-17 16:17:24
 (epstopdf)                    size: 18180 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE.eps>
-(epstopdf)             \includegraphics on input line 255.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
-<FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf, id=55, 598.235pt x 531.9875pt>
+<FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf, id=56, 598.235pt x 531.9875pt>
 File: FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf Graphic file (type pdf)
 <use FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf>
-Package pdftex.def Info: FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf  used on input line 255.
+Package pdftex.def Info: FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf  used on input line 272.
 (pdftex.def)             Requested size: 207.41675pt x 184.44504pt.
 
-Underfull \hbox (badness 1460) in paragraph at lines 269--270
-\OT1/ptm/m/n/9 The three-dimensional ca-pa-bil-ity is as-sessed us-ing Case 362, a
- []
 
+[2 <./FIGURES/ICE_AIR_INTERFACE-eps-converted-to.pdf> <./FIGURES/EIKONAL.png (PNG copy)> <./FIGURES/PROPAGATION.png (PNG copy)> <./FIGURES/MESH_ADAPTATION.png (PNG copy)>]
 
-
-[2 <./FIGURES/EIKONAL.png (PNG copy)> <./FIGURES/PROPAGATION.png (PNG copy)> <./FIGURES/MESH_ADAPTATION.png (PNG copy)> <./FIGURES/THREE_HORNS.png (PNG copy)>]
-<FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png, id=65, 995.72pt x 885.3075pt>
+<FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png, id=71, 995.72pt x 885.3075pt>
 File: FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png Graphic file (type png)
 <use FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png>
-Package pdftex.def Info: FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png  used on input line 273.
+Package pdftex.def Info: FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png  used on input line 289.
 (pdftex.def)             Requested size: 207.41675pt x 184.40709pt.
 Package epstopdf Info: Source file: <FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE.eps>
 (epstopdf)                    date: 2026-09-17 16:17:10
@@ -754,46 +755,41 @@ Package epstopdf Info: Source file: <FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLI
 (epstopdf)                    date: 2026-09-24 22:12:10
 (epstopdf)                    size: 76590 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE.eps>
-(epstopdf)             \includegraphics on input line 282.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
-<FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf, id=66, 598.235pt x 531.9875pt>
+<FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf, id=72, 598.235pt x 531.9875pt>
 File: FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf Graphic file (type pdf)
 <use FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf>
-Package pdftex.def Info: FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf  used on input line 282.
+Package pdftex.def Info: FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf  used on input line 298.
 (pdftex.def)             Requested size: 207.41675pt x 184.44504pt.
-
-
 (./sae_paper.bbl
 
-[3 <./FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf> <./FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png (PNG copy)> <./FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf>]
+[3 <./FIGURES/THREE_HORNS.png (PNG copy)> <./FIGURES/CASE_IPW1_241_ICE_SHAPE_CONVERGENCE-eps-converted-to.pdf> <./FIGURES/CLIPPED_ICE_SHAPE_CASE_362_3.png (PNG copy)> <./FIGURES/CASE_IPW1_362_ICE_SHAPE_MCCS_vs_SLICE-eps-converted-to.pdf>]
 Underfull \hbox (badness 1264) in paragraph at lines 35--36
 []\OT1/ptm/m/n/9 P. Lavoie, E. Radenac, G. Blan-chard, E. Lau-ren-deau, and
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 54--55
+Underfull \hbox (badness 1762) in paragraph at lines 60--61
 []\OT1/ptm/m/n/9 E. Lau-ren-deau, S. Bourgault-Cote, I. A. Ozcer, R. Hann,
  []
 
+
+
 )
-Overfull \hbox (25.80739pt too wide) in paragraph at lines 330--336
+Overfull \hbox (25.80739pt too wide) in paragraph at lines 347--353
  [][] 
  []
 
 
-Overfull \hbox (26.97284pt too wide) in paragraph at lines 347--354
+Overfull \hbox (26.97284pt too wide) in paragraph at lines 364--370
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (26.96458pt too wide) in paragraph at lines 365--369
+Overfull \hbox (26.96458pt too wide) in paragraph at lines 381--384
  [][] 
  []
-
-
 
 
 
@@ -804,18 +800,18 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 29330 strings out of 473190
- 748577 string characters out of 5715801
- 1251205 words of memory out of 5000000
- 52062 multiletter control sequences out of 15000+600000
- 583490 words of font info for 79 fonts, out of 8000000 for 9000
+ 29304 strings out of 473190
+ 748249 string characters out of 5715801
+ 1256949 words of memory out of 5000000
+ 52041 multiletter control sequences out of 15000+600000
+ 582098 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,87p,1786b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,87p,1324b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sae_paper.pdf (4 pages, 2117654 bytes).
+Output written on sae_paper.pdf (4 pages, 2105438 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 151 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

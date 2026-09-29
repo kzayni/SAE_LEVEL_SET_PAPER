@@ -10,45 +10,45 @@ Warning--empty year in thompsonDeformation
 Warning--empty publisher in OSHER2004
 Warning--empty journal in champsArticle
 Warning--empty year in champsArticle
-You've used 19 entries,
+You've used 21 entries,
             1876 wiz_defined-function locations,
-            611 strings with 7391 characters,
-and the built_in function-call counts, 5724 in all, are:
-= -- 529
-> -- 257
+            625 strings with 7829 characters,
+and the built_in function-call counts, 6434 in all, are:
+= -- 606
+> -- 279
 < -- 0
-+ -- 92
-- -- 73
-* -- 435
-:= -- 804
-add.period$ -- 19
-call.type$ -- 19
-change.case$ -- 17
++ -- 100
+- -- 79
+* -- 487
+:= -- 897
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 299
-empty$ -- 529
-format.name$ -- 73
-if$ -- 1409
+cite$ -- 26
+duplicate$ -- 334
+empty$ -- 590
+format.name$ -- 79
+if$ -- 1586
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 21
-newline$ -- 62
-num.names$ -- 19
-pop$ -- 70
+int.to.str$ -- 21
+missing$ -- 23
+newline$ -- 68
+num.names$ -- 21
+pop$ -- 72
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 207
+skip$ -- 240
 stack$ -- 0
-substring$ -- 355
-swap$ -- 131
+substring$ -- 423
+swap$ -- 151
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 45
-width$ -- 21
-write$ -- 189
+while$ -- 52
+width$ -- 23
+write$ -- 210
 (There were 6 warnings)

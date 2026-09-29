@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex sae_paper"] 1790304831.53192 "sae_paper.aux" "sae_paper.bbl" "sae_paper" 1790304832.45895 0
-  "./references.bib" 1789677262.3618 16031 39e550b3594cc9333cfd664075d59220 ""
+["bibtex sae_paper"] 1790641719.29164 "sae_paper.aux" "sae_paper.bbl" "sae_paper" 1790703175.21354 0
+  "./references.bib" 1790618778.19768 16389 71f78339786909466303e50b121875f2 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "sae_paper.aux" 1790304832.24973 5088 37a98a5344a66ca70178c8abe5a408c8 "pdflatex"
+  "sae_paper.aux" 1790703174.75237 5291 731d6ec2e535bcea27ff2d8bd5d44e7e "pdflatex"
   (generated)
   "sae_paper.bbl"
   "sae_paper.blg"
   (rewritten before read)
-["pdflatex"] 1790304831.64175 "/Users/mkzayni/Desktop/UNIVERSITY/PAPERS/SAE_LEVEL_SET_PAPER/SAE_LEVEL_SET_PAPER/sae_paper.tex" "sae_paper.pdf" "sae_paper" 1790304832.45908 0
-  "/Users/mkzayni/Desktop/UNIVERSITY/PAPERS/SAE_LEVEL_SET_PAPER/SAE_LEVEL_SET_PAPER/sae_paper.tex" 1790304829.4907 18740 5f6c6cb033d33beb54738c2fbda13200 ""
+["pdflatex"] 1790703173.54584 "/Users/mkzayni/Desktop/UNIVERSITY/PAPERS/SAE_LEVEL_SET_PAPER/SAE_LEVEL_SET_PAPER/sae_paper.tex" "sae_paper.pdf" "sae_paper" 1790703175.21377 0
+  "/Users/mkzayni/Desktop/UNIVERSITY/PAPERS/SAE_LEVEL_SET_PAPER/SAE_LEVEL_SET_PAPER/sae_paper.tex" 1790703173.30968 18523 bddc84e422d584ff7b0343b18a147a0c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -16,7 +16,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136768653 2228 e564491c42a4540b5ebb710a75ff306c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm" 1136768653 4480 10409ed8bab5aea9ec9a78028b763919 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1136768653 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1136768653 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm" 1136768653 2680 312a2d12b1f1df8ee0212e7ba1962402 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1136768653 2288 f478fc8fed18759effb59f3dad7f3084 ""
@@ -53,7 +52,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1136768653 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf" 1136768653 1384 6ac0f8b839230f5d9389287365b243c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1136768653 1380 0ea3a3370054be6da6acd929ec569f06 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf" 1136768653 1948 7330aeef3af211edff3b35fb2c12a0fd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1136768653 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -222,7 +220,6 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1601326656 325 f9f16d12354225b7dd52a3321f085955 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty" 1496704190 4904 ee78b44e85d6fccf08cd99370557481e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1137110629 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.cfg" 1167176009 2062 a0e7d66e09e508f51289a656aec06ed2 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.sty" 1167176009 15188 91281c7ddbccfa54a8e0c3b56ab5aa72 ""
@@ -242,11 +239,11 @@
   "FIGURES/MESH_ADAPTATION.png" 1789676230.37087 77247 8101094a7d3e716b8e216761acd4d09e ""
   "FIGURES/PROPAGATION.png" 1789676230.37618 204885 507116a8f21a278e851301e566853bc2 ""
   "FIGURES/THREE_HORNS.png" 1789676230.4394 39430 59b6d11a3dc159b82b1af48c609f397e ""
-  "FIGURES/icingFramework.png" 1789676230.35911 58587 d839f85443d98def514dccccac4caf50 ""
+  "FIGURES/icingFramework.eps" 1790614938.22603 1154206 f75df053a79b9985fc58dfee273c3505 ""
   "sae.cls" 1789689926 5328 bec47a4f51637a2e2ebaefd8569b92da ""
-  "sae_paper.aux" 1790304832.24973 5088 37a98a5344a66ca70178c8abe5a408c8 "pdflatex"
-  "sae_paper.bbl" 1790304831.63856 4314 1b1224ef0e98ac59c091ae7d40c0d10d "bibtex sae_paper"
-  "sae_paper.tex" 1790304829.4907 18740 5f6c6cb033d33beb54738c2fbda13200 ""
+  "sae_paper.aux" 1790703174.75237 5291 731d6ec2e535bcea27ff2d8bd5d44e7e "pdflatex"
+  "sae_paper.bbl" 1790641719.4511 4807 418804a00870f938de25523e6900224d "bibtex sae_paper"
+  "sae_paper.tex" 1790703173.30968 18523 bddc84e422d584ff7b0343b18a147a0c ""
   (generated)
   "sae_paper.aux"
   "sae_paper.log"
